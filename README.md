@@ -8,54 +8,56 @@
 
 # Primeira Aplicação em Java ☕🚀
 
-Este projeto foi desenvolvido como parte do curso **Java: criando a sua primeira aplicação**, da **Alura**.  
-O objetivo é praticar os fundamentos da linguagem Java, incluindo variáveis, condicionais, laços de repetição, entrada de dados e lógica de programação.
+Exercícios de console desenvolvidos durante o curso **Java: criando a sua primeira aplicação**, da Alura. O repositório reúne exemplos de entrada e saída, condicionais, laços e uma simulação simples de conta bancária.
 
----
+## Conteúdos praticados
 
-## 🧠 Conteúdos praticados
+- Estrutura básica de um programa Java;
+- Variáveis, tipos primitivos e operações matemáticas;
+- Condicionais com `if` e `else`;
+- Laços de repetição com `for` e `while`;
+- Entrada de dados pelo terminal usando `Scanner`;
+- Organização de exemplos em classes.
 
-- Estrutura básica de uma aplicação Java
-- Uso de variáveis e tipos primitivos
-- Condicionais (`if` / `else`)
-- Laços de repetição (`for` e `while`)
-- Entrada de dados com `Scanner`
-- Operações matemáticas e lógica
-- Organização do código em classes
+## Requisitos
 
----
+- JDK 17 ou superior;
+- Terminal ou uma IDE Java, como IntelliJ IDEA.
 
-## 📂 Estrutura do projeto
+O projeto não usa bibliotecas externas nem Maven ou Gradle. A versão 17 atende aos blocos de texto usados no código.
 
-O projeto é composto por diferentes classes, cada uma com um objetivo específico:
+## Como compilar e executar
 
-- `Main.java` → Primeira aplicação e saída de dados no console  
-- `Condicional.java` → Uso de condicionais para tomada de decisão  
-- `Leitura.java` → Leitura de dados do usuário via terminal  
-- `Loop.java` → Uso de laços de repetição para cálculos  
-- `Desafio.java` → Simulação simples de conta bancária no terminal  
+Os comandos abaixo compilam e executam o exemplo principal, `Main.java`. Execute-os a partir da pasta raiz do repositório:
 
----
+```bash
+mkdir out
+javac -d out src/Main.java
+java -cp out Main
+```
 
-## 🛠️ Tecnologias utilizadas
+A saída é exibida no terminal. Para executar outro exercício, abra a classe correspondente em uma IDE e execute o método `main`, quando disponível.
 
-- **Java**
-- **IntelliJ IDEA**
-- **Git & GitHub**
+## Arquivos do projeto
 
----
+```text
+.
+├── src/
+│   ├── Main.java
+│   ├── Condicional.java
+│   ├── Leitura.java
+│   ├── Loop.java
+│   ├── OutroLoop.java
+│   └── Desafio.java
+└── primeiroprojeto.iml
+```
 
-## 🎯 Objetivo
+- `Main.java`: apresenta dados de um filme de exemplo e pratica variáveis, texto e cálculos;
+- `Condicional.java`: exemplos de decisões condicionais;
+- `Leitura.java`: entrada de dados pelo terminal;
+- `Loop.java` e `OutroLoop.java`: exercícios de repetição;
+- `Desafio.java`: simulação simples de conta bancária.
 
-Consolidar a base em Java e fortalecer os fundamentos da programação, servindo como primeiro passo para projetos mais complexos no futuro.
+## Curso
 
----
-
-## 📚 Curso
-
-Projeto desenvolvido durante o curso:  
-**Java: criando a sua primeira aplicação** — Alura
-
----
-
-🚀 Em constante aprendizado e evolução.
+Projeto desenvolvido durante **Java: criando a sua primeira aplicação**, da Alura, com finalidade educacional.
