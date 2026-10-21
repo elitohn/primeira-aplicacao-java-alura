@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=175&color=0:0F172A,55:164E63,100:0891B2&text=Primeira%20Aplica%C3%A7%C3%A3o%20Java&fontColor=FFFFFF&fontSize=34&fontAlignY=38&desc=Fundamentos%20da%20linguagem%20Java&descAlignY=61&descSize=15" alt="Capa do projeto Primeira Aplicação Java" width="100%" />
+
+![Tecnologia](https://img.shields.io/badge/Java-0F172A?style=flat-square) ![Idioma](https://img.shields.io/badge/documentação-pt--BR-0891B2?style=flat-square) ![Tipo](https://img.shields.io/badge/projeto-de%20estudo-334155?style=flat-square)
+
+</div>
+
 # Primeira Aplicação em Java ☕🚀
 
 Este projeto foi desenvolvido como parte do curso **Java: criando a sua primeira aplicação**, da **Alura**.  
